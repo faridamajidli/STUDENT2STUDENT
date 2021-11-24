@@ -56,11 +56,22 @@ You will have to input you choices. After the choices are validated, the respect
             *  USER INPUT: yes or no for Downloading Notes, Class, Chapter (enter only the chapter number), Name of the text file you want the notes to be saved (if there are any)
             *  OUTPUT: The name of the text file that the notes are originally in. Downloads the notes after asking you if you want to download them.
      
-           
-  
+
+Scheduling Code:
+
+In this program, while you have not selected a date or time, it keeps displaying more options, and once you have made a choice, it adds the selected date and time to an empty variable. Yet it also is defining a function that removes that selection from the list if it was selected by a user so the next user doesn’t select the same slot.
+
+# Additional Information about The Code
+
+The main code that we created does not have pre-stored data for the accounts, available list of tutors and uploaded notes of courses. It actually saves information in real-time. Meaning it saves the user's credentials, uploads, tutoring status in a text file right after input in a separate file. As new information is inputted by the user, the text file gets updated.
+
+In order to carry out our objective, we have used the following data structures:
+
+1. Dictionaries
 
 
 
+Breadth-first search will allow us to create an algorithm that will help us with scheduling sessions;
 
 # Credits
 
