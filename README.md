@@ -44,11 +44,18 @@ You will have to input you choices. After the choices are validated, the respect
    2. Giving and Receiving Tutoring: Depending on your choices in the previous stage of the program (subscription), you are asked to input more information
          * Giving Tutoring: You can be a tutor no matter if you have a subscription or not.
             * USER INPUT: yes or no for Giving Tutoring and Class Desired to Teach
-            * OUTPUT: You are saved to tutors_list.txt and tutors_contact.txt as a tutor for potential students.
+            * OUTPUT: Your last name, Class you are teaching, your email are now saved to tutors_list.txt and tutors_contact.txt as a tutor for potential students.
          * Receiving Tutoring: You can only receive tutoring if you have a subscription.
             * USER INPUT: yes or no for Receiving Tutoring and Class Desired to Learn
             * OUTPUT: Last Name and Email of an available tutor for that particular class. (if no available tutor, then message is displayed)
-   3.  
+   3. Uploading and Downloading Notes: You have an access to the notes no matter if you have a subscription or not.
+         * Uploading Notes:
+            *  USER INPUT: yes or no for Uploading Notes, Class, Chapter (enter only the chapter number), Name of the text file the notes are in (create a text file in your python project and put the notes in that file)
+            *  OUTPUT: The class, chapter number and file name for your notes are now saved in notes_list.txt
+         *  Downloading Notes:
+            *  USER INPUT: yes or no for Downloading Notes, Class, Chapter (enter only the chapter number), Name of the text file you want the notes to be saved (if there are any)
+            *  OUTPUT: The name of the text file that the notes are originally in. Downloads the notes after asking you if you want to download them.
+     
            
   
 
