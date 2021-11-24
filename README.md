@@ -34,6 +34,10 @@ After running the main code, you will officially access our platform. You will b
 
 You will have to input you choices. After the choices are validated, the respective action will be carried out and you will be asked more questions based on your choice.
 
+   1. The Account: Sign up or Log in. This part makes sure if you already have an account or not. 
+         * If want to log in, you press <Enter>. If you want sign up, you type
+  
+
 
 
 
