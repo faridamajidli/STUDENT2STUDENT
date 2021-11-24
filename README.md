@@ -34,14 +34,21 @@ After running the main code, you will officially access our platform. You will b
 
 You will have to input you choices. After the choices are validated, the respective action will be carried out and you will be asked more questions based on your choice.
 
-   1. The Account: Sign up or Log in. This part makes sure if you already have an account or not. 
-       If want to log in, you press Enter. If you want sign up, you type 1
+   1. The Account: Sign up or Log in. This part makes sure if you already have an account or not. If want to log in, you press Enter. If you want sign up, you type 1
          * Sign Up
             * USER INPUT: First Name, Last Name, Degree, Year, Email, Username, Password, Subscription Plan (19.99€ per month)
-            * OUTPUT: The program continues with the remaining functions which means the inputs are validated and the account has been created
+            * OUTPUT: Your username and password is now saved in accounts.txt. The program continues with the remaining functions which means the inputs are validated and the account has been created
          * Log In
             * USER INPUT: Username, Password
             * OUTPUT: You are welcomed and program continues with the remaining functions
+   2. Giving and Receiving Tutoring: Depending on your choices in the previous stage of the program (subscription), you are asked to input more information
+         * Giving Tutoring: You can be a tutor no matter if you have a subscription or not.
+            * USER INPUT: yes or no for Giving Tutoring and Class Desired to Teach
+            * OUTPUT: You are saved to tutors_list.txt and tutors_contact.txt as a tutor for potential students.
+         * Receiving Tutoring: You can only receive tutoring if you have a subscription.
+            * USER INPUT: yes or no for Receiving Tutoring and Class Desired to Learn
+            * OUTPUT: Last Name and Email of an available tutor for that particular class. (if no available tutor, then message is displayed)
+   3.  
            
   
 
