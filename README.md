@@ -26,19 +26,23 @@ Now, that you have everything set up, create 2 new python files called student2s
 
 Main Code:
 
-After running the main code, the user will officially access our platform. You will be welcomed and asked several questions on the following 3 sections:
+After running the main code, you will officially access our platform. You will be welcomed and asked several questions on the following 3 sections:
 
-1. The Account
-2. Tutoring
-3. Notes
+* The Account: Sign up or Log in
+* Giving and Receiving Tutoring
+* Uploading and Downloading Notes 
+
+You will have to input you choices. After the choices are validated, the respective action will be carried out and you will be asked more questions based on your choice.
+
+
 
 
 # Credits
 
 The authors of this project are:
-Mahika Vats
-Mehdi Zaid
-Maria Al-Sawalha
-Delphine Troje
-Fernando Pascual
-Farida Majidli
+1. Mahika Vats
+2. Mehdi Zaid
+3. Maria Al-Sawalha
+4. Delphine Troje
+5. Fernando Pascual
+6. Farida Majidli
