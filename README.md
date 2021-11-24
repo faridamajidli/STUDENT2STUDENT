@@ -65,13 +65,14 @@ In this program, while you have not selected a date or time, it keeps displaying
 
 The main code that we created does not have pre-stored data for the accounts, available list of tutors and uploaded notes of courses. It actually saves information in real-time. Meaning it saves the user's credentials, uploads, tutoring status in a text file right after input in a separate file. As new information is inputted by the user, the text file gets updated.
 
-In order to carry out our objective, we have used the following data structures:
+In order to carry out our objective, we have used the following data structure:
 
-1. Dictionaries
+1. Dictionaries: Storing accounts, tutors, notes
 
+And following Algorithms:
 
-
-Breadth-first search will allow us to create an algorithm that will help us with scheduling sessions;
+1. Breadth-first Search: Creating an algorithm that helped us with scheduling sessions
+2. Insertion: Appending relevant inputs to the Dictionaries
 
 # Credits
 
