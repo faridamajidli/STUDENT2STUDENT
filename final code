@@ -137,7 +137,7 @@ def log_in(user_details, list, notes_list):
                 pass
             exit()
         else:
-            print("Your password is incorrect, try again. ")
+            print("Your password is incorrect, try again")
     else:
         print("This account does not exist.")
 
@@ -167,7 +167,7 @@ def create_tutor(user):
     degree = user.degree
     year = user.year
     contact = user.contact
-    subject = input("What course you can tutor other students in? (only 1 course) ")
+    subject = input("What class you can tutor other students in? (only 1 class) ")
 
     tutor = Tutor(first_name, last_name, degree, year, subject, contact)
 
@@ -193,7 +193,7 @@ def create_tutor(user):
 # Now let's define the function that allows a user to find a tutor.
 ###################################################################
 def find_tutor():
-    subject = input("What course do you want to be tutored in? (only 1 course) ")
+    subject = input("What class do you want to be tutored in? (only 1 class) ")
 
     infile = open('tutors_contact.txt', 'r')
     for line in infile:
@@ -214,7 +214,7 @@ def find_tutor():
             print(tutors, "can tutor you in", subject, ". You can contact him/her at:", dictionary_contact[tutors])
     if p != "yes":
         initial = input(
-            "Sorry, no tutors are available for this course at the moment. If you want to try another course "
+            "Sorry, no tutors are available for this class at the moment. If you want to try another class "
             "type yes. Otherwise press <Enter>: ")
         if initial == "yes":
             find_tutor()
@@ -234,8 +234,8 @@ class Notes():
 # Creating a function to upload Notes
 #####################################
 def upload_notes(notes_list):
-    subject = input("For which course do you want to upload the notes? ")
-    chapter = input("Which chapter are you uploading? (only 1 chapter at a time) ")
+    subject = input("For which class do you want to upload notes? ")
+    chapter = input("Which chapter are you uploading? (only 1 chapter) ")
 
     infileName = input("Okay, now what is the name of the file where the notes are? ")
 
@@ -260,8 +260,8 @@ def upload_notes(notes_list):
 # Creating a function to download notes
 #######################################
 def download_notes():
-    subject = input('For which course you want to download the notes? ')
-    chapter = input('Which chapter from this course do you want to download? ')
+    subject = input('For which class you want to download the notes? ')
+    chapter = input('Which chapter from this class do you want to download? ')
 
     infile = open('notes_list.txt', 'r')
     for line in infile:
@@ -273,7 +273,7 @@ def download_notes():
         p = ""
         if notes == subject+chapter:
             p = "yes"
-            print("You can download", dictionary[notes], "for the course", subject, "chapter", chapter,)
+            print("You can download", dictionary[notes], "for the class", subject, "chapter", chapter)
             initial = input("\nIf you want to download them, please type yes. Otherwise press <Enter> ")
             if initial == "yes":
                 infile = open(dictionary[notes], 'r')
@@ -285,7 +285,7 @@ def download_notes():
                 print("The notes have been saved under the name:", outfileName)
                 break
     if p != "yes":
-        initial = input("Sorry, there are no notes available for what you have asked at the moment. If you want to try another course or chapter "
+        initial = input("Sorry, there are no notes available for what you asked at the moment. If you want to try another class or chapter "
                         "type yes. Otherwise press <Enter>: ")
         if initial == "yes":
             download_notes()
@@ -293,9 +293,7 @@ def download_notes():
             pass
 
 
-
 def main():
-    # Initialising the lists and variables we are going to use
     user_list = []
     tutors_list = []
     notes_list = []
@@ -310,12 +308,10 @@ def main():
         log_in(user_details, user_list, notes_list)
 
 
-
     if user.tutoring == "yes":
         create_tutor(user)
     else:
         pass
-
 
 
     if user.subscription == "yes":
