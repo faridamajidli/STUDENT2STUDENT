@@ -21,7 +21,7 @@ To be able to run our scheduling program, you have to use Google Colaboratory.
 
 You do not need to install any packages or libraries.
 
-Now, that you have everything set up, create 2 new python files called student2student.py and scheduling.py and run them, respectfully.
+Now, that you have everything set up, download the python files called main_code.py and scheduling.py and run them, respectfully.
 
 # Usage
 
