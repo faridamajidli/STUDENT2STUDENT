@@ -7,14 +7,15 @@ Student2Student is a platform for connecting students to student for tutoring pu
 
 # Installation
 
-To be able to run our main program, you have to have the Python programming language (versions between 3.6 and 3.8) installed. When you launch Python, create a new project and make sure you have these files created in your project with following texts written in them:
+To be able to run our main program, you have to have the Python programming language (versions between 3.6 and 3.8) installed. When you launch Python, create a new project and make sure you have these files that we have published above opened in your project:
 
 * accounts.txt: username1=password1
 * notes_list.txt: classachapter1=textfile.txt
 * tutors_list.txt: tutor1=subject1
 * tutors_contact.txt: tutor1=contact1
+* marketing_notes_chapter1.txt: some notes for marketing chapter 1 (this is sample notes for you to try our 'Upload Notes' service) 
 
-Note: These text files help us to store the inputted data by the user as dictionaries.
+Note: These text files help us to store the inputted data by the user as dictionaries. 
 
 To be able to run our scheduling program, you have to use Google Colaboratory.
 
@@ -77,9 +78,9 @@ And following Algorithms:
 # Credits
 
 The authors of this project are:
-1. Mahika Vats
-2. Mehdi Zaid
-3. Maria Al-Sawalha
-4. Delphine Troje
-5. Fernando Pascual
-6. Farida Majidli
+1. Al-Sawalha, Maria
+2. Majidli, Farida
+3. Pascual, Fernando 
+4. Troje, Delphine 
+5. Vats, Mahika
+6. Zaid, Mehdi
