@@ -45,7 +45,7 @@ You will have to input you choices. After the choices are validated, the respect
    2. Giving and Receiving Tutoring: Depending on your choices in the previous stage of the program (subscription), you are asked to input more information
          * Giving Tutoring: You can be a tutor no matter if you have a subscription or not.
             * USER INPUT: yes or no for Giving Tutoring and Class Desired to Teach
-            * OUTPUT: Your last name, Class you are teaching, your email are now saved to tutors_list.txt and tutors_contact.txt as a tutor for potential students.
+            * OUTPUT: Your last name, email and class you are teaching are now saved to tutors_list.txt and tutors_contact.txt as a tutor for potential students.
          * Receiving Tutoring: You can only receive tutoring if you have a subscription.
             * USER INPUT: yes or no for Receiving Tutoring and Class Desired to Learn
             * OUTPUT: Last Name and Email of an available tutor for that particular class. (if no available tutor, then message is displayed)
