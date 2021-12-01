@@ -58,7 +58,7 @@ You will have to input you choices. After the choices are validated, the respect
          * Inserting Schedule: If you sign up as a tutor, you can insert the days and times during which you are available for tutoring
             * USER INPUT: List of days and corresponding times of availability, last name, subject of tutoring, and contact information.
             * OUTPUT: These inputs are saved as a string in the file "schedules.txt", which will be potentially retrieved and transformed intro a dictionnary to run the next function.
-          * Searching Availability: As a user of the app, you can search for the availability of the tutor of your choice, provided he has already set up his schedule on the app.
+         * Searching Availability: As a user of the app, you can search for the availability of the tutor of your choice, provided he has already set up his schedule on the app.
             * USER INPUT: Last name of tutor of interest, day and time for which you want to check availability, and subject you want to be tutored in.
             * OUTPUT: A confirmation that the tutor is available at that day and time for that subject and his contact information, or a disconfirmation.
    5. Uploading and Downloading Notes: You have an access to the notes no matter if you have a subscription or not.
