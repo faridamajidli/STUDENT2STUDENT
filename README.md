@@ -13,24 +13,29 @@ To be able to run our main program, you have to have the Python programming lang
 * notes_list.txt: classachapter1=textfile.txt
 * tutors_list.txt: tutor1=subject1
 * tutors_contact.txt: tutor1=contact1
+* schedules.txt: name=info
 * marketing_notes_chapter1.txt: some notes for marketing chapter 1 (this is sample notes for you to try our 'Upload Notes' service) 
 
 Note: These text files help us to store the inputted data by the user as dictionaries. 
 
 To be able to run our scheduling program, you have to use Google Colaboratory.
 
-You do not need to install any packages or libraries.
+Packages and Libraries:
+You will need to run these 2 lines (already included in the code) without installing any package.
+* import os
+* from operator import add
 
-Now, that you have everything set up, download the python files called main_code.py and scheduling.py and run them, respectfully.
+Now, that you have everything set up, download the python files called main_code.py and run it.
 
 # Usage
 
 Main Code:
 
-After running the main code, you will officially access our platform. You will be welcomed and asked several questions on the following 3 sections:
+After running the main code, you will officially access our platform. You will be welcomed and asked several questions on the following 4 sections:
 
 * The Account: Sign up or Log in
 * Giving and Receiving Tutoring
+* Inserting Schedule and Searching Availability 
 * Uploading and Downloading Notes 
 
 You will have to input you choices. After the choices are validated, the respective action will be carried out and you will be asked more questions based on your choice.
@@ -49,18 +54,20 @@ You will have to input you choices. After the choices are validated, the respect
          * Receiving Tutoring: You can only receive tutoring if you have a subscription.
             * USER INPUT: yes or no for Receiving Tutoring and Class Desired to Learn
             * OUTPUT: Last Name and Email of an available tutor for that particular class. (if no available tutor, then message is displayed)
-   3. Uploading and Downloading Notes: You have an access to the notes no matter if you have a subscription or not.
+   3. Inserting Schedule and Searching Availability: If you sign up as a Tutor, you can choose to set up your schedule of availability.
+         * Inserting Schedule: If you sign up as a tutor, you can insert the days and times during which you are available for tutoring
+            * USER INPUT: List of days and corresponding times of availability, last name, subject of tutoring, and contact information.
+            * OUTPUT: These inputs are saved as a string in the file "schedules.txt", which will be potentially retrieved and transformed intro a dictionnary to run the next function.
+          * Searching Availability: As a user of the app, you can search for the availability of the tutor of your choice, provided he has already set up his schedule on the app.
+            * USER INPUT: Last name of tutor of interest, day and time for which you want to check availability, and subject you want to be tutored in.
+            * OUTPUT: A confirmation that the tutor is available at that day and time for that subject and his contact information, or a disconfirmation.
+   5. Uploading and Downloading Notes: You have an access to the notes no matter if you have a subscription or not.
          * Uploading Notes:
             *  USER INPUT: yes or no for Uploading Notes, Class, Chapter (enter only the chapter number), Name of the text file the notes are in (create a text file in your python project and put the notes in that file)
             *  OUTPUT: The class, chapter number and file name for your notes are now saved in notes_list.txt
          *  Downloading Notes:
             *  USER INPUT: yes or no for Downloading Notes, Class, Chapter (enter only the chapter number), Name of the text file you want the notes to be saved (if there are any)
             *  OUTPUT: The name of the text file that the notes are originally in. Downloads the notes after asking you if you want to download them.
-     
-
-Scheduling Code:
-
-In this program, while you have not selected a date or time, it keeps displaying more options, and once you have made a choice, it adds the selected date and time to an empty variable. Yet it also is defining a function that removes that selection from the list if it was selected by a user so the next user doesn’t select the same slot.
 
 # Additional Information about The Code
 
